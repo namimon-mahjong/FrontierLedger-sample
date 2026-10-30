@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 850" shape-rendering="crispEdges">
+  <defs>
+    <pattern id="sea" width="64" height="48" patternUnits="userSpaceOnUse">
+      <path d="M8 15h16m24 24h8M39 7h8" stroke="#527176" stroke-width="3" opacity=".36"/>
+      <rect x="28" y="33" width="4" height="4" fill="#83a39a" opacity=".25"/>
+    </pattern>
+    <pattern id="grass" width="48" height="40" patternUnits="userSpaceOnUse">
+      <path d="M8 9v7m21 9v8m11-24v4" stroke="#a2ac68" stroke-width="3" opacity=".58"/>
+      <rect x="16" y="30" width="5" height="3" fill="#c8b46a" opacity=".5"/>
+    </pattern>
+    <clipPath id="continent">
+      <path d="M117 229h45v-31h88v-37h96v24h74v-41h101v20h73v-27h94v40h75v27h78v65h29v95h-25v79h35v89h-47v66h-48v60h-66v43h-91v-24h-87v42h-99v-25h-81v24h-97v-37h-83v-41h-52v-61H112v-87H82v-86h30v-89h-22v-72h27z"/>
+    </clipPath>
+  </defs>
+
+  <!-- A wide, quiet sea keeps the regional landforms legible beneath map markers. -->
+  <rect width="1000" height="850" fill="#294148"/>
+  <rect width="1000" height="850" fill="url(#sea)"/>
+  <path d="M77 236h34v-32h45v-30h94v-34h96v23h76v-38h106v20h70v-27h98v38h78v29h77v65h29v99h-23v81h33v94h-45v65h-47v61h-68v41h-94v-23h-84v41H458v-25h-83v25h-99v-37h-82v-40h-52v-63H108v-87H79v-89h30v-88H87v-73h-19z" fill="#8b9470" opacity=".62"/>
+  <path d="M117 229h45v-31h88v-37h96v24h74v-41h101v20h73v-27h94v40h75v27h78v65h29v95h-25v79h35v89h-47v66h-48v60h-66v43h-91v-24h-87v42h-99v-25h-81v24h-97v-37h-83v-41h-52v-61H112v-87H82v-86h30v-89h-22v-72h27z" fill="#344f43" stroke="#b2a56c" stroke-width="5"/>
+  <g clip-path="url(#continent)">
+    <rect x="65" y="90" width="870" height="690" fill="#344f43"/>
+    <rect x="65" y="90" width="870" height="690" fill="url(#grass)" opacity=".24"/>
+
+    <!-- Northwest: silver frost and wind-cut barrens. -->
+    <path d="M75 112h270v42h-35v44h-42v39h-46v53h-42v46h-50v49H75z" fill="#63736b"/>
+    <path d="M80 125h55v20h-20v14h-35zm69-3h47v18h-18v14h-29zm78 10h48v17h-20v15h-28zM115 195h57v18h-22v17h-35zm79 4h48v18h-18v18h-30z" fill="#c6cbb0"/>
+    <path d="M90 274h40v12h-18v14h-22m68-13h36v12h-14v15h-22m-65 36h45v12h-20v12h-25" fill="none" stroke="#87927f" stroke-width="8"/>
+
+    <!-- North: a high plateau capped by square, snow-bright peaks. -->
+    <path d="M340 88h310v166h-54v31h-68v-24h-57v29h-69v-26h-62z" fill="#526760"/>
+    <path d="M357 181h41v-35h24v-29h22v-23h20v23h19v29h22v35h28v18h-55v-15h-34v15h-28v-12h-31v12h-52zm156 20h30v-29h22v-27h21v-28h23v30h22v29h18v26h-46v-12h-35v15h-25v-12h-30z" fill="#aab7a6"/>
+    <path d="M420 112h23v22h-12v15h-17v-17h6zm176-1h23v24h-11v17h-17v-19h5z" fill="#e0d8b2"/>
+    <rect x="377" y="229" width="235" height="14" fill="#718375"/>
+
+    <!-- Northeast: birch forest, dark pines, and a few pale trunks. -->
+    <path d="M638 121h280v238h-62v-34h-54v-40h-47v-33h-49v-45h-68z" fill="#405b49"/>
+    <g fill="#253c39">
+      <path d="M678 171h16v20h10v18h-36v-18h10zm62 22h17v18h10v20h-38v-20h11zm66-35h17v20h10v20h-38v-20h11zm57 51h18v19h10v20h-39v-20h11zm-158 76h17v17h10v20h-38v-20h11zm92 7h16v18h11v19h-38v-19h11z"/>
+      <path d="M695 208h4v22h-4zm62 23h4v25h-4zm66-38h4v24h-4zm58 54h4v24h-4zm-158 64h4v22h-4z" fill="#d6d0a7"/>
+    </g>
+    <g fill="#668064">
+      <path d="M719 145h12v16h8v14h-28v-14h8zm123 53h12v16h8v14h-28v-14h8zm-75 108h12v15h8v14h-28v-14h8z"/>
+    </g>
+
+    <!-- East: open dawn grassland with long, stepped bands. -->
+    <path d="M719 353h198v177h-47v-22h-38v19h-49v-28h-35v-42h-29z" fill="#8c8751"/>
+    <path d="M726 374h177v15H726zm16 30h149v13H742zm-4 35h177v14H738zm26 31h127v13H764z" fill="#b5a35d" opacity=".8"/>
+    <path d="M789 362v18m31 32v18m44 23v17m-109-7v16m125 24v13" stroke="#d2bb70" stroke-width="4"/>
+
+    <!-- Southeast: amber canyon terraces and dark cut-throughs. -->
+    <path d="M677 527h244v230H690v-41h-56v-62h43z" fill="#8a593b"/>
+    <path d="M682 557h205v21H682zm-2 43h171v20H680zm-6 43h203v19H674zm28 42h183v18H702zm20 39h150v18H722z" fill="#c08b4b"/>
+    <path d="M740 539h24v69h-18v38h-21v39h-22v47h-23v26h-23v-35h21v-44h22v-42h19v-43h21zm130 20h22v47h-18v32h-20v34h-19v-42h17v-36h18z" fill="#573f35"/>
+
+    <!-- South: a wide green river splitting into delta channels. -->
+    <path d="M465 586h72v36h-19v36h-19v36h28v31h-22v29h-27v-37h-26v-35h22v-31h18v-34h-27z" fill="#4f8290"/>
+    <path d="M503 711h-24v39h-29v17h-68v20h97v-18h38v-24h22v-24h-36zm31-15h20v36h30v20h54v19h-83v-19h-31zm-29 71h19v28h-20z" fill="#4f8290"/>
+    <path d="M488 596h23v34h-19v34h-16" fill="none" stroke="#8eb3a3" stroke-width="6"/>
+    <g fill="#71804d"><rect x="392" y="681" width="16" height="12"/><rect x="416" y="713" width="13" height="11"/><rect x="577" y="721" width="18" height="12"/><rect x="604" y="741" width="14" height="10"/></g>
+
+    <!-- Southwest: wind-shaped hills, scrub, and layered ridges. -->
+    <path d="M87 520h224v233H94v-53h36v-52H96v-48h-9z" fill="#5c704c"/>
+    <path d="M93 578h91v16h-29v17h-62zm55 45h127v17h-38v16H148zm22 54h113v16h-33v16H170zm81-106h87v16h-27v17h-60z" fill="#8c8d54"/>
+    <path d="M115 552h62m-48 14h54m64 41h77m-102 14h83m-38 47h77m-136 15h98" stroke="#c2ab65" stroke-width="4" opacity=".75"/>
+    <g fill="#34483c"><rect x="113" y="681" width="10" height="25"/><rect x="128" y="691" width="9" height="20"/><rect x="302" y="638" width="11" height="28"/></g>
+
+    <!-- West: black-glass mountains and foothill scree. -->
+    <path d="M70 312h270v219h-63v-38h-44v-29h-53v-36h-47v-47H70z" fill="#303c3b"/>
+    <path d="M78 402h50v-41h25v-30h20v27h24v35h28v18h-40v-17h-31v17h-26v16H78zm142 5h42v-34h22v-26h24v29h20v31h24v20h-52v-15h-38v14h-42z" fill="#596565"/>
+    <path d="M150 351h20v17h-12v15h-19v-17h11zm116 20h21v19h-12v15h-19v-17h10z" fill="#9fa79a"/>
+    <g fill="#4f5b50"><rect x="92" y="470" width="24" height="14"/><rect x="122" y="489" width="35" height="12"/><rect x="180" y="477" width="30" height="15"/><rect x="247" y="492" width="40" height="12"/></g>
+
+    <!-- Central crossroads are deliberately small; the regions define the map. -->
+    <path d="M432 385h137v18h-56v24h-17v-24h-64zm33 59h16v51h-16zm72 0h17v37h-17z" fill="#a58c58" opacity=".75"/>
+    <rect x="479" y="405" width="30" height="20" fill="#c2aa67"/>
+    <rect x="486" y="398" width="16" height="7" fill="#d2c28c"/>
+    <rect x="492" y="412" width="6" height="7" fill="#4a5340"/>
+  </g>
+
+  <!-- Tiny shore marks and isolated islets make the view read as a world map. -->
+  <g fill="#5b7775" opacity=".8">
+    <rect x="129" y="195" width="11" height="9"/><rect x="849" y="169" width="16" height="8"/><rect x="933" y="458" width="12" height="16"/>
+    <rect x="594" y="797" width="17" height="8"/><rect x="315" y="791" width="13" height="7"/><rect x="57" y="561" width="11" height="14"/>
+  </g>
+</svg>
